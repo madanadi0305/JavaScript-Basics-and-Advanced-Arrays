@@ -1,0 +1,512 @@
+image: node:latest
+
+cache:
+   paths:
+       - node_modules/
+
+Test:
+    tags: 
+        - array
+    script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test
+    only:
+        refs:
+            - master
+            
+Test01:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test01
+  only:
+    refs:
+      - 1-task01-program-to-perform-basic-operation
+
+Practice01:
+  tags: 
+      - array
+  script:
+      - node practice01.js
+  only:
+    refs:
+      - 1-task01-program-to-perform-basic-operation
+
+Test02:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test02
+  only:
+    refs:
+      - 2-task02-program-to-perform-basic-operation
+
+Practice02:
+  tags: 
+      - array
+  script:
+      - node practice02.js
+  only:
+    refs:
+      - 2-task02-program-to-perform-basic-operation
+
+Test03:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test03
+  only:
+    refs:
+      - 3-task03-program-to-insert-sign-in-between-digit
+
+Practice03:
+  tags: 
+      - array
+  script:
+      - node practice03.js
+  only:
+    refs:
+      - 3-task03-program-to-insert-sign-in-between-digit
+
+Test04:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test04
+  only:
+    refs:
+      - 4-task04-program-to-return-most-repeated-element-form-array
+
+Practice04:
+  tags: 
+      - array
+  script:
+      - node practice04.js
+  only:
+    refs:
+      - 4-task04-program-to-return-most-repeated-element-form-array
+
+Test05:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test05
+  only:
+    refs:
+      - 5-task05-program-to-sorts-the-elements-of-input-array-in-ascending-order
+
+Practice05:
+  tags: 
+      - array
+  script:
+      - node practice05.js
+  only:
+    refs:
+      - 5-task05-program-to-sorts-the-elements-of-input-array-in-ascending-order
+
+      
+Test06:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test06
+  only:
+    refs:
+      - 6-task06-program-to-sorts-the-elements-of-input-array-in-descending-order
+
+Practice06:
+  tags: 
+      - array
+  script:
+      - node practice06.js
+  only:
+    refs:
+      - 6-task06-program-to-sorts-the-elements-of-input-array-in-descending-order
+
+      
+Test07:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test07
+  only:
+    refs:
+      - 7-task07-program-to-calculate-the-squares-of-each-element-in-an-array
+
+Practice07:
+  tags: 
+      - array
+  script:
+      - node practice07.js
+  only:
+    refs:
+      - 7-task07-program-to-calculate-the-squares-of-each-element-in-an-array
+
+      
+Test08:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test08
+  only:
+    refs:
+      - 8-task08-program-to-calculate-the-sum-of-all-elements-of-the-array
+
+Practice08:
+  tags: 
+      - array
+  script:
+      - node practice08.js
+  only:
+    refs:
+      - 8-task08-program-to-calculate-the-sum-of-all-elements-of-the-array
+
+      
+Test09:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test09
+  only:
+    refs:
+      - 9-task09-program-to-find-duplicate-elements-from-the-array
+
+Practice09:
+  tags: 
+      - array
+  script:
+      - node practice09.js
+  only:
+    refs:
+      - 9-task09-program-to-find-duplicate-elements-from-the-array
+
+Test10:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test10
+  only:
+    refs:
+      - 10-task10-program-to-remove-duplicate-elements-from-the-array
+
+Practice10:
+  tags: 
+      - array
+  script:
+      - node practice10.js
+  only:
+    refs:
+      - 10-task10-program-to-remove-duplicate-elements-from-the-array
+
+      
+Test11:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test11
+  only:
+    refs:
+      - 11-task11-program-which-returns-an-array-of-all-the-leap-years-that-exists-between-the-2-years
+
+Practice11:
+  tags: 
+      - array
+  script:
+      - node practice11.js
+  only:
+    refs:
+      - 11-task11-program-which-returns-an-array-of-all-the-leap-years-that-exists-between-the-2-years
+
+      
+Test12:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test12
+  only:
+    refs:
+      - 12-task12-program-to-calculate-the-sum-of-elements-at-each-index-in-both-the-arrays
+
+Practice12:
+  tags: 
+      - array
+  script:
+      - node practice12.js
+  only:
+    refs:
+      - 12-task12-program-to-calculate-the-sum-of-elements-at-each-index-in-both-the-arrays
+
+      
+Test13:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test13
+  only:
+    refs:
+      - 13-task13-program-to-return-an-array-with-the-number-of-elements-equal-to-the-positive-number
+
+Practice13:
+  tags: 
+      - array
+  script:
+      - node practice13.js
+  only:
+    refs:
+      - 13-task13-program-to-return-an-array-with-the-number-of-elements-equal-to-the-positive-number
+
+      
+Test14:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test14
+  only:
+    refs:
+      - 14-task14-program-to-move-element-to-fix-position
+
+Practice14:
+  tags: 
+      - array
+  script:
+      - node practice14.js
+  only:
+    refs:
+      - 14-task14-program-to-move-element-to-fix-position
+
+
+Test15:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test15
+  only:
+    refs:
+      - 15-task15-program-that-sorts-the-elements-of-the-array-in-descending-order
+
+Practice15:
+  tags: 
+      - array
+  script:
+      - node practice15.js
+  only:
+    refs:
+      - 15-task15-program-that-sorts-the-elements-of-the-array-in-descending-order
+
+      
+Test16:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test16
+  only:
+    refs:
+      - 16-task16-program-to-find-whether-the-array-contains-the-value-as-its-element
+
+Practice16:
+  tags: 
+      - array
+  script:
+      - node practice16.js
+  only:
+    refs:
+      - 16-task16-program-to-find-whether-the-array-contains-the-value-as-its-element
+
+      
+Test17:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test17
+  only:
+    refs:
+      - 17-task17-program-to-find-whether-the-array-contains-the-value-as-its-element
+
+Practice17:
+  tags: 
+      - array
+  script:
+      - node practice17.js
+  only:
+    refs:
+      - 17-task17-program-to-find-whether-the-array-contains-the-value-as-its-element
+
+      
+Test18:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test18
+  only:
+    refs:
+      - 18-task18-program-to-remove-the-duplicate-elements
+
+Practice18:
+  tags: 
+      - array
+  script:
+      - node practice18.js
+  only:
+    refs:
+      - 18-task18-program-to-remove-the-duplicate-elements
+      
+Test19:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test19
+  only:
+    refs:
+      - 19-task19-program-to-return-the-index-values-of-all-the-pairs-of-2-elements
+
+Practice19:
+  tags: 
+      - array
+  script:
+      - node practice19
+  only:
+    refs:
+      - 19-task19-program-to-return-the-index-values-of-all-the-pairs-of-2-elements
+
+Test20:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test20
+  only:
+    refs:
+      - 20-task20-program-to-find-element-in-limited-portion-of-array
+
+Practice20:
+  tags: 
+      - array
+  script:
+      - node practice20.js
+  only:
+    refs:
+      - 20-task20-program-to-find-element-in-limited-portion-of-array
+
+Test21:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test21
+  only:
+    refs:
+      - 21-task21-program-to-return-array-after-manipulating-data-inside-it
+Practice21:
+  tags: 
+      - array
+  script:
+      - node practice21.js
+  only:
+    refs:
+      - 21-task21-program-to-return-array-after-manipulating-data-inside-it
+
+Test22:
+  tags: 
+        - array
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix specs/ https://workspace.konfinity.com/swapnil/array-specs.git master
+        - npm install
+        - npm run test22
+  only:
+    refs:
+      - 22-task22-program-to-rearrange-array-elements-according-to-the-absolute-difference
+Practice22:
+  tags: 
+      - array
+  script:
+      - node practice22.js
+  only:
+    refs:
+      - 22-task22-program-to-rearrange-array-elements-according-to-the-absolute-difference
