@@ -3,7 +3,7 @@
 Open file **task23.js**. inside it write a JavaScript program to rearrange array elements according to the absolute difference with x, i. e., the element having minimum difference comes first and so on and return the result.
 Note: If two or more elements are at equal distance arrange them in the same sequence as in the given array.
 
-Create a file named arr23 and write a JS program. This program contains a function which takes two arguments: an array and a number x. This function returns the array according to the requirement.
+Write a JS program. This program contains a function which takes two arguments: an array and a number x. This function returns the array according to the requirement.
 
 Sample Input: array=`[10, 5, 3, 9, 2]`, x=7. Expected Output : `[5, 9, 10, 3, 2]`.
 
