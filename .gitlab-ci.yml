@@ -7,6 +7,7 @@ cache:
 Test:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -20,6 +21,7 @@ Test:
 Test01:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -33,6 +35,7 @@ Test01:
 Practice01:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice01.js
   only:
@@ -42,6 +45,7 @@ Practice01:
 Test02:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -55,6 +59,7 @@ Test02:
 Practice02:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice02.js
   only:
@@ -64,6 +69,7 @@ Practice02:
 Test03:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -77,6 +83,7 @@ Test03:
 Practice03:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice03.js
   only:
@@ -86,6 +93,7 @@ Practice03:
 Test04:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -99,6 +107,7 @@ Test04:
 Practice04:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice04.js
   only:
@@ -108,6 +117,7 @@ Practice04:
 Test05:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -121,6 +131,7 @@ Test05:
 Practice05:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice05.js
   only:
@@ -130,6 +141,7 @@ Practice05:
 Test06:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -143,6 +155,7 @@ Test06:
 Practice06:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice06.js
   only:
@@ -152,6 +165,7 @@ Practice06:
 Test07:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -165,6 +179,7 @@ Test07:
 Practice07:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice07.js
   only:
@@ -174,6 +189,7 @@ Practice07:
 Test08:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -187,6 +203,7 @@ Test08:
 Practice08:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice08.js
   only:
@@ -196,6 +213,7 @@ Practice08:
 Test09:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -209,6 +227,7 @@ Test09:
 Practice09:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice09.js
   only:
@@ -218,6 +237,7 @@ Practice09:
 Test10:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -231,6 +251,7 @@ Test10:
 Practice10:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice10.js
   only:
@@ -240,6 +261,7 @@ Practice10:
 Test11:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -253,6 +275,7 @@ Test11:
 Practice11:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice11.js
   only:
@@ -262,6 +285,7 @@ Practice11:
 Test12:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -275,6 +299,7 @@ Test12:
 Practice12:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice12.js
   only:
@@ -284,6 +309,7 @@ Practice12:
 Test13:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -297,6 +323,7 @@ Test13:
 Practice13:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice13.js
   only:
@@ -306,6 +333,7 @@ Practice13:
 Test14:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -319,6 +347,7 @@ Test14:
 Practice14:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice14.js
   only:
@@ -328,6 +357,7 @@ Practice14:
 Test15:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -341,6 +371,7 @@ Test15:
 Practice15:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice15.js
   only:
@@ -350,6 +381,7 @@ Practice15:
 Test16:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -363,6 +395,7 @@ Test16:
 Practice16:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice16.js
   only:
@@ -372,6 +405,7 @@ Practice16:
 Test17:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -385,6 +419,7 @@ Test17:
 Practice17:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice17.js
   only:
@@ -394,6 +429,7 @@ Practice17:
 Test18:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -407,6 +443,7 @@ Test18:
 Practice18:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice18.js
   only:
@@ -416,6 +453,7 @@ Practice18:
 Test19:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -429,6 +467,7 @@ Test19:
 Practice19:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice19
   only:
@@ -438,6 +477,7 @@ Practice19:
 Test20:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -451,6 +491,7 @@ Test20:
 Practice20:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice20.js
   only:
@@ -460,6 +501,7 @@ Practice20:
 Test21:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -472,6 +514,7 @@ Test21:
 Practice21:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice21.js
   only:
@@ -481,6 +524,7 @@ Practice21:
 Test22:
   tags:
     - array
+  timeout: 3m
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
     - git config --global user.name "Swapnil"
@@ -493,6 +537,7 @@ Test22:
 Practice22:
   tags:
     - array
+  timeout: 3m
   script:
     - node practice22.js
   only:
