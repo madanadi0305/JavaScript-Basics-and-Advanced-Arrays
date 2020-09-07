@@ -1,6 +1,6 @@
-# Array Exercise 23
+# Array Exercise 22
 
-Open file **task23.js**. inside it write a JavaScript program to rearrange array elements according to the absolute difference with x, i. e., the element having minimum difference comes first and so on and return the result.
+Open file **task22.js**. inside it write a JavaScript program to rearrange array elements according to the absolute difference with x, i. e., the element having minimum difference comes first and so on and return the result.
 Note: If two or more elements are at equal distance arrange them in the same sequence as in the given array.
 
 Write a JS program. This program contains a function which takes two arguments: an array and a number x. This function returns the array according to the requirement.
