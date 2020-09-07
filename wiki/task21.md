@@ -1,6 +1,6 @@
-# Array Exercise 22
+# Array Exercise 21
 
-Open file **task22.js**. inside it write a JavaScript function that takes one argument: an array. This function returns the array in such a way that the first element is the first minimum and the second element is the first maximum and so on.
+Open file **task21.js**. inside it write a JavaScript function that takes one argument: an array. This function returns the array in such a way that the first element is the first minimum and the second element is the first maximum and so on.
 
 Sample Input: array=`[2,4,7,1,3,8,9]`. Expected Output : `[1,9,2,8,3,7,4]`.
 
