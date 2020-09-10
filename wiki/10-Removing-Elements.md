@@ -1,6 +1,9 @@
 # Removing Array Elements
 
-There are various methods that can be used to remove elements in an array. Like: Shift method() is used to remove elements from the beginning of an array, it shifts all elements down to one index lower than the current index. the pop() method is used to reduce the length of an array by one and also return the value of the deleted item.
+There are various methods that can be used to remove elements in an array.
+ Like: Shift method() is used to remove elements from the beginning of an array,
+  it shifts all elements down to one index lower than the current index. 
+  the pop() method is used to reduce the length of an array by one and also return the value of the deleted item.
 
 Removing element :
 
