@@ -1,6 +1,9 @@
 # Array Exercise 3
 
- Open file **task03.js**. inside it write a JavaScript function that takes one argument: a positive number n. This function inserts minus sign (-) between 2 even digits appearing back to back in the number. Sample Input: If the Number is 2445678. Sample Output = 2-4-45678.
+ Open file **task03.js**. inside it write a JavaScript function that takes one argument: 
+ a positive number n. This function inserts minus sign (-) between 2 even digits appearing back to back in the number.
+  Sample Input: If the Number is 2445678. 
+ Sample Output = 2-4-45678.
 
 Steps :
 
