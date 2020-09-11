@@ -1,4 +1,4 @@
-function sumAndProduct(array){
+function sumAndProductOfArray(array){
   var sum=0;
   var product=1;
   var arr1=array;
@@ -12,4 +12,4 @@ function sumAndProduct(array){
     return sum_and_product_array;
 }
 
-module.exports=sumAndProducts;
+module.exports=sumAndProductOfArray;
