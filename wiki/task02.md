@@ -1,6 +1,7 @@
 # Array Exercise 2
 
-Open file **task02.js**. inside it write a JavaScript function that takes two arguments: an array and integer value of n. This function will return the last 'n' elements of the array. For example, if the input array is `[1,2,4,5,6]` and n is `2`, then the output must be [5,6].
+Open file **task02.js**. inside it write a JavaScript function that takes two arguments: an array and integer value of n. 
+This function will return the last 'n' elements of the array. For example, if the input array is `[1,2,4,5,6]` and n is `2`, then the output must be [5,6].
 
 Steps:
 
