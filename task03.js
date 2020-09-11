@@ -18,6 +18,7 @@ i=parseInt(i/10);
      
  }
  //arr2.splice(2,0,'-');
-return arr3;
+ var arr4=arr3.toString().split(",").join(" ");
+return arr4;
 }
 module.exports=insertHyphen;
