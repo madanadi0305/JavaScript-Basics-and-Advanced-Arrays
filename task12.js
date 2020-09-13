@@ -2,8 +2,8 @@ function createNewArray(array1,array2){
 var n1=array1.length;
 var n2=array2.length;
 var sum;
-var k1=0;
-var k2=0;
+//var k1=0;
+//var k2=0;
 var index;
 var new_array=[];
 if(n1<n2){
