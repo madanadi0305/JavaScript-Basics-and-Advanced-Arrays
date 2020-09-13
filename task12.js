@@ -29,7 +29,16 @@ if(n1<n2){
              new_array.push(array1[index]);
              index=index+1;
          }
+
+
      }
+if(n1===n2){
+    for(var i=0;i<n1;i++){
+        sum=array1[i]+array2[i];
+        new_array.push(sum);
+    }
+}
+
 return new_array;
 }
 module.exports=createNewArray;
