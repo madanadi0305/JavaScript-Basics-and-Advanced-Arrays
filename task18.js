@@ -24,4 +24,4 @@ function MergeArrays(array1,array2){
     return merged_array;
     
   }
-  merge.exports=MergeArrays;
+  module.exports=MergeArrays;
