@@ -12,7 +12,7 @@ for(var j=0;j<array.length;j++){
       
      }
   
-   if((count>=maxCount)){
+   if((count>maxCount)){
     is_Max=true;       
     break; 
          }   
