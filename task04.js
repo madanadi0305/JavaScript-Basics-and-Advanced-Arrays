@@ -5,7 +5,7 @@ for(var j=0;j<array.length;j++){
  count=1;
   is_Max=false;
  k=array[j];
- for(var i=0;i<array.length;i++){
+ for(var i=j;i<array.length;i++){
      if(k===array[i]){
          count=count+1;
       
