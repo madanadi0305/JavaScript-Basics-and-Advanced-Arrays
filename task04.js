@@ -2,7 +2,7 @@ function repeatedElements(array){
 var array_repeated=[];
 var count,k,is_Max;var maxCount=2;
 for(var j=0;j<array.length;j++){
- count=0;
+ count=1;
   is_Max=false;
  k=array[j];
  for(var i=0;i<array.length;i++){
