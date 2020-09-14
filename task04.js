@@ -28,7 +28,7 @@ for(var j=0;j<array.length;j++){
 }
  
   array_repeated.push(k);
-  array_repeated.push(count)
+  array_repeated.push(count);
  
   
 return array_repeated;
