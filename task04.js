@@ -1,9 +1,8 @@
 function repeatedElements(array){
 var array_repeated=[];
-var count,k,is_Max;var maxCount=2;
+var count,k,is_Max;var maxCount=1;
 for(var j=0;j<array.length;j++){
- count=1;
-  is_Max=false;
+ 
  k=array[j];
  for(var i=j;i<array.length;i++){
      if(k===array[i]){
@@ -11,24 +10,21 @@ for(var j=0;j<array.length;j++){
       
       
      }
-    //maxCount=count;
+    
    if((count>maxCount)){
-    is_Max=true;       
-    break; 
+   maxCount=count;
+   array_repeated.push(k);
+   array_repeated.push(count);
          }   
    
  }
-  if(is_Max===true){
-  break;
-    //  array_repeated.push(k);
-  //array_repeated.push(count);
- }
+ count=0;
+  
   
   
 }
  
-  array_repeated.push(k);
-  array_repeated.push(count);
+ 
  
   
 return array_repeated;
