@@ -1,6 +1,6 @@
 function repeatedElements(array){
 var array_repeated=[];
-var count,k,is_Max;var maxCount=2;
+var count,k,is_Max;var maxCount=1;
 for(var j=0;j<array.length;j++){
  
   
