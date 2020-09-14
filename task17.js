@@ -1,16 +1,27 @@
-function findAndRemove(array,number){
-    //var pos;
-    //var is_Found;
-    array.forEach(function(element,index){
-                
-      if(number===element){
-                //  is_Found=true;
-        array.splice(index,1);
-    }
+function findAndRemoveElement(array,number){
+    var value=number;
+    var is_Found;
+    var position;
+    for(var i=0;i<array.length;i++){
+      if(array[i]===value){
+      is_Found=true;
+      position=i;
+      }
       
-    });  
+      
+      
+      
+    }
+    
+    if(is_Found===true){
+       array.splice(position,1);
+        return array;
     
     
-   return array;
+    }
+    else{
+      return false;
+    }
+   // var new_array=[];
   }
-  module.exports=findAndRemove;
+  module.exports=findAndRemoveElement;
