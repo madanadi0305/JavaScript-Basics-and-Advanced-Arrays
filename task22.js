@@ -17,7 +17,7 @@ if(min!=i){
 }
 }
 
-for(var i=0;i<array.length;i++){
+/*for(var i=0;i<array.length;i++){
     k1=Math.abs(array[i]-value);
     for(var j=i+1;j<array.length;j++){
         k2=Math.abs(array[j]-value);
@@ -30,7 +30,7 @@ for(var i=0;i<array.length;i++){
             }
         }
     }
-}
+}*/
 return array;
 
 }
