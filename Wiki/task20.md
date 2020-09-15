@@ -1,7 +1,12 @@
 # Array Exercise 21
 
-Open file **task21.js**. inside it write a JavaScript function that takes four arguments: an array, a number to be searched in the given array, starting index of the given array, the last index of the given array. This function returns true if the number is found in array else it returns false.
-A binary search is an efficient algorithm for finding an item from a sorted array of items. It works by repeatedly dividing in half the portion of the array that could contain the item until you've narrowed down the possible locations to just one.
+Open file **task21.js**. inside it write a JavaScript function that takes four arguments: an array, 
+a number to be searched in the given array, 
+starting index of the given array, the last index of the given array. 
+This function returns true if the number is found in array else it returns false.
+A binary search is an efficient algorithm for finding an item from a sorted array of items. 
+It works by repeatedly dividing in half the portion of the array that could contain the item until you've narrowed 
+down the possible locations to just one.
 Sample Input: array=`[ 2, 3, 4, 10, 40 ]`, number=10, start_index=0, last_index= 4 . Expected Output : true.
 
 Hints:
