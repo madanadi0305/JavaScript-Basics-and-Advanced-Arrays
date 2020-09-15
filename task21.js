@@ -1,6 +1,6 @@
 function MaxAndMin(array){
     var temp,min;
-    var sorted_array;
+    var sorted_array=[];
     var max_min_array=[];
     for(var i=0;i<array.length;i++){
         min=i;
@@ -22,11 +22,11 @@ function MaxAndMin(array){
     
 sorted_array=array;
 var small=0;
-
+//var is_Minimum=true;
 var large=sorted_array.length-1;
 for(var i=0;i<sorted_array.length;i++ ){
     if(i%2==0){
-       
+       // max_min_array[i]=sorted_array[small++];
        max_min_array[i]=sorted_array[small];
       small=small+1;;
         
@@ -34,12 +34,14 @@ for(var i=0;i<sorted_array.length;i++ ){
     else{
         max_min_array[i]=sorted_array[large];
         large=large-1;
-       
+        //max_min_array.push(sorted_array[large--]);
         
     }
-    
+    //is_Minimum=false;
     
 }
     
 return max_min_array;    
 }
+module.exports=MaxAndMin;
+
