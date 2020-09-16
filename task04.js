@@ -34,25 +34,28 @@ function mostRepeatedElements(array){
   
   for(var i=0;i<array.length;i++){
     newCount=0;
+    k=array[i];
     for(var j=i;j<array.length;j++){
-      if(array[j]===array[i]){
+      if(array[j]===k){
         newCount=newCount+1;
         
       }
       if(newCount===max){
-        most_repeated.push(array[j]);
-        most_repeated.push(newCount);
-       // break;
+     // most_repeated.push(k);  
+    most_repeated.push(k);
+        most_repeated.push(max);
+        
+        break;
       }
       
       
     }
+    //most_repeated.push(k);  
+    //break;
   }
-    
+   
   //return max;
    return most_repeated; 
     
 }
 module.exports=mostRepeatedElements;
-
-
