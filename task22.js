@@ -1,36 +1,23 @@
 function sortByAbsoluteDifference(array,value){
    var min,temp,k1,k2;
-for(var i=0;i<array.length;i++){
-k1=Math.abs(array[i]-value);
-min=i;
-for(var j=i+1;j<array.length;j++){
-k2=Math.abs(array[j]-value);
-if(k2<k1){
-    min=j;
-}
-}
-if(min!=i){
-  temp=array[min];
-  array[min]=array[i];
-  array[i]=temp;
-
-}
-}
-
-/*for(var i=0;i<array.length;i++){
-    k1=Math.abs(array[i]-value);
-    for(var j=i+1;j<array.length;j++){
-        k2=Math.abs(array[j]-value);
-        
-        if(k1==k2){
-            if(array[i]>array[j]){
-                temp=array[i];
-                array[i]=array[j];
-                array[j]=temp;
-            }
+   var original_array=array;
+  // var sorted_array=[];   
+  for(var i=1;i<array.length;i++){
+      k1=Math.abs(array[i]-value);
+        var j=i-1;
+        if((Math.abs(array[j]-value)>k1)){
+            temp=array[i];
+        while((Math.abs(array[j]-value)>k1)&& j>=0){
+           // temp=array[i];
+           array[j+1]=array[j];
+           j--;
+           // sorted_array.push(temp);
         }
-    }
-}*/
+        array[j+1]=temp;
+        }
+      
+  } 
+
 return array;
 
 }
